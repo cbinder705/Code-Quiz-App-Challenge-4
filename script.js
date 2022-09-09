@@ -42,5 +42,24 @@ correct: "b"
       c: "curly brackets",
       D: "square brackers",
       correct: "b"
-        }
-]
+        },
+];
+let quiz= document.getElementById('quiz')
+let answer=document.querySelectorAll('answer')
+let questionCl= document.getElementById('question')
+let qA = document.getElementById('a_text')
+let qB = document.getElementById('b_text')
+let qC = document.getElementById('c_text')
+let qD = document.getElementById('d_text')
+let submitBtn = document.getElementById('submit')
+
+
+let actualQuiz= 0
+let score = 0
+
+startQuiz()
+function startQuiz(){
+  unselectAnswer()
+  let actualQuizData = quizQuestions[actualQuiz]
+  questionCl.innertext = actualQuiz.question
+}
