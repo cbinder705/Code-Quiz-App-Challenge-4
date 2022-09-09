@@ -24,5 +24,23 @@ correct: "b"
   c: "Correct Color Scheme",
   D: "Color Correcting Software",
   correct: "a"
-    }
+    },
+
+    {
+      question: "Inside of which element do we place the link to our Javascript file? ",
+    a: "<javascript>",
+    b: "<JSCRIPT>",
+    c: "<sscript>",
+    D: "<script>",
+    correct: "d"
+      },
+
+      {
+        question: "The condition in an if/else statement is enclosed with ___________ ",
+      a: "quotes",
+      b: "parenthesis",
+      c: "curly brackets",
+      D: "square brackers",
+      correct: "b"
+        }
 ]
