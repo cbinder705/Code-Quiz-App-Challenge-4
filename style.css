@@ -4,6 +4,7 @@
 
 body {
   background-color: lightseagreen;
+  opacity: 70%;
   font-family: "Times New Roman", Times, serif;
   display: flex;
   align-items: center;
@@ -23,6 +24,7 @@ body {
 
 .quiz-header {
   padding: 3rem;
+  background-color: rgb(216, 187, 187);
 }
 
 h2 {
@@ -46,7 +48,7 @@ ul li label {
 }
 
 button {
-  background-color: teal;
+  background-color: lightseagreen;
   color: white;
   display: block;
   width: 100%;

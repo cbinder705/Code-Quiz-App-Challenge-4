@@ -1,8 +1,10 @@
 *{
   box-sizing: border-box;
+  
 }
 body{
   background-color: lightseagreen;
+  opacity: 70%;
   //gradient like port
   font-family: 'Times New Roman', Times, serif;
   display: flex;
@@ -19,9 +21,11 @@ body{
   box-shadow: 0 0 8px 2px black;
   overflow: hidden;
   width: 600px;
+  
 }
 .quiz-header{
   padding: 3rem;
+  background-color: rgb(216, 187, 187);
 
 }
 h2{
@@ -45,7 +49,7 @@ ul{
 
   }
   button{
-    background-color: teal;
+    background-color: lightseagreen;
     color: white;
     display: block;
     width: 100%;

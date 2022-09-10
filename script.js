@@ -1,11 +1,11 @@
-var quizQuestions = [
+var questionDataBase = [
   {
 question: "JavaScript is one of the few languages that run in a ____________",
 a: "Smart Phone",
 b: "Dumb Phone",
 c: "Web Browser",
 D: "Marathon",
-correct: "c"
+correct: "c",
   },
 
   {
@@ -14,7 +14,7 @@ a: "Apple Product Instruction",
 b: "Application Programming Interface",
 c: "Application Programming Interference",
 D: "Apple Pie Installation",
-correct: "b"
+correct: "b",
   },
 
   {
@@ -23,7 +23,7 @@ correct: "b"
   b: "Cascading Style Software",
   c: "Correct Color Scheme",
   D: "Color Correcting Software",
-  correct: "a"
+  correct: "a",
     },
 
     {
@@ -32,7 +32,7 @@ correct: "b"
     b: "<JSCRIPT>",
     c: "<sscript>",
     D: "<script>",
-    correct: "d"
+    correct: "d",
       },
 
       {
@@ -41,25 +41,6 @@ correct: "b"
       b: "parenthesis",
       c: "curly brackets",
       D: "square brackers",
-      correct: "b"
+      correct: "b",
         },
 ];
-let quiz= document.getElementById('quiz')
-let answer=document.querySelectorAll('answer')
-let questionCl= document.getElementById('question')
-let qA = document.getElementById('a_text')
-let qB = document.getElementById('b_text')
-let qC = document.getElementById('c_text')
-let qD = document.getElementById('d_text')
-let submitBtn = document.getElementById('submit')
-
-
-let actualQuiz= 0
-let score = 0
-
-startQuiz()
-function startQuiz(){
-  unselectAnswer()
-  let actualQuizData = quizQuestions[actualQuiz]
-  questionCl.innertext = actualQuiz.question
-}
