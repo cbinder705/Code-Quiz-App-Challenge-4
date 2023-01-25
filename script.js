@@ -2,49 +2,44 @@ var questionDataBase = [
   {
     question:
       "JavaScript is one of the few languages that run in a ____________",
-    a: "Smart Phone",
-    b: "Dumb Phone",
-    c: "Web Browser",
-    D: "Marathon",
-    correct: "c",
+    answers: ["Smart Phone", "Dumb Phone", "Web Browser", "Marathon"],
+    correct: "Web Browser",
   },
 
   {
     question: "What does API stand for? ",
-    a: "Apple Product Instruction",
-    b: "Application Programming Interface",
-    c: "Application Programming Interference",
-    D: "Apple Pie Installation",
-    correct: "b",
+    answers: [
+      "Apple Product Instruction",
+      "Application Programming Interface",
+      "Application Programming Interference",
+      "Apple Pie Installation",
+    ],
+    correct: "Application Programming Interface",
   },
 
   {
     question: "What does CSS stand for? ",
-    a: "Cascading Style Sheets",
-    b: "Cascading Style Software",
-    c: "Correct Color Scheme",
-    D: "Color Correcting Software",
-    correct: "a",
+    choices: [
+      "Cascading Style Sheets",
+      "Cascading Style Software",
+      "Correct Color Scheme",
+      "Color Correcting Software",
+    ],
+    correct: "Cascading Style Sheets",
   },
 
   {
     question:
       "Inside of which element do we place the link to our Javascript file? ",
-    a: "<javascript>",
-    b: "<JSCRIPT>",
-    c: "<sscript>",
-    D: "<script>",
-    correct: "d",
+    choices: ["<javascript>", "<sscript>", "<JSCRIPT>", "<script>"],
+    correct: "<script>",
   },
 
   {
     question:
       "The condition in an if/else statement is enclosed with ___________ ",
-    a: "quotes",
-    b: "parenthesis",
-    c: "curly brackets",
-    D: "square brackets",
-    correct: "b",
+    choices: ["quotes", "parenthesis", "curly brackets", "square brackets"],
+    correct: "parenthesis",
   },
 ];
 var timer = document;
