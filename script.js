@@ -42,4 +42,5 @@ var questionDataBase = [
     correct: "parenthesis",
   },
 ];
-var timer = document;
+var score = 0;
+var questionIndex = 0;
