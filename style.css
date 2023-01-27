@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+a {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
 
 body {
   background-color: lightseagreen;

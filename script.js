@@ -1,3 +1,4 @@
+var score = 0;
 var questionDataBase = [
   {
     question:
@@ -42,5 +43,4 @@ var questionDataBase = [
     correct: "parenthesis",
   },
 ];
-var score = 0;
-var questionIndex = 0;
+const question = document.getElementById();
