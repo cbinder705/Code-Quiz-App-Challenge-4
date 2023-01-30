@@ -2,7 +2,7 @@
 
 ## Description
 
-For this challgenge the goal was to create a code quiz app that met the following requirements:
+For this challenge the goal was to create a code quiz app that met the following requirements:
 User Story:
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
