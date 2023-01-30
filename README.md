@@ -1,4 +1,5 @@
 # Code-Quiz-App-Challenge-4
+
 ## Description
 
 For this challgenge the goal was to create a code quiz app that met the following requirements:
@@ -21,5 +22,4 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 
-![codequiz-image] 
-
+![codequiz-image](code-quiz.png)
