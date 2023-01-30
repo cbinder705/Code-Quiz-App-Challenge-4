@@ -56,7 +56,7 @@ timer.addEventListener("click", function () {
     holdInterval = setInterval(function () {
       secondsLeft--;
       currentTime.textContent = "Time: " + secondsLeft;
-
+      // handles timer for quiz
       if (secondsLeft <= 0) {
         clearInterval(holdInterval);
         gameOver();
@@ -89,6 +89,7 @@ function compare(event) {
     var createDiv = document.createElement("div");
     createDiv.setAttribute("id", "createDiv");
     if (element.textContent == questionDatabase[questionIndex].answer) {
+      // handles right and wrong choices
       score++;
       createDiv.textContent = "You're Right!";
     } else {
